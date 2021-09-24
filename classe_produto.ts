@@ -56,7 +56,7 @@ class Produtos {
     }
   }
   valorFinal() {
-    return (this.quantidade * this.preco - this.desconto();
+    return this.quantidade * this.preco - this.desconto();
   }
 }
 

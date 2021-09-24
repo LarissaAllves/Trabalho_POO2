@@ -91,6 +91,10 @@ salarioLiquido(){
 
 }
 
-const funcionarios = new Funcionarios('Gabriel', 10, 30, 1)
+const funcionarios = new Funcionarios('Gabriel', 80, 30, 2)
 
 console.log(`O funcionario de nome ${funcionarios.nome} tem o salario bruto de  ${funcionarios.salarioBruto()} e teve ${funcionarios.faltas} faltas. Sua PLR foi de ${funcionarios.calcPlr()}`)
+
+console.log(`O funcionario de nome ${funcionarios.nome} tem o salario bruto de ${funcionarios.salarioBruto()} o desconto de ${funcionarios.descSalario()} a PLR de ${funcionarios.calcPlr()} e o seu salario líquido é de ${funcionarios.salarioLiquido()}  }`)
+
+

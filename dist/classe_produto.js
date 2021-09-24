@@ -59,7 +59,7 @@ var Produtos = /** @class */ (function () {
         }
     };
     Produtos.prototype.valorFinal = function () {
-        return (this.quantidade * this.preco - this.desconto());
+        return this.quantidade * this.preco - this.desconto();
     };
     return Produtos;
 }());
